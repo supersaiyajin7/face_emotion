@@ -19,7 +19,7 @@ list_dict = dict((el,[]) for el in ["Angry", "Disgust",
 known_face_encodings = []
 known_face_names = []
 
-path = "C:\\Users\\shringar.kashyap\\Documents\\products industry AI\\cnn funda\\face_recog\\"
+path = "\\face_recog\\"
 files_path = os.listdir(path)
 for i in range(len(files_path)):
     #files[i] = files[i][0:-4]
@@ -115,5 +115,5 @@ def start_app(cnn):
     print("The plot is ready!")
 
 if __name__ == '__main__':
-    model = FacialExpressionModel("C:\\Users\\shringar.kashyap\\Documents\\products industry AI\\cnn funda\\face_model.json", "C:\\Users\\shringar.kashyap\\Documents\\products industry AI\\cnn funda\\face_model.h5")
+    model = FacialExpressionModel("face_model.json", "face_model.h5")
     start_app(model)
