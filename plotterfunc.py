@@ -41,7 +41,7 @@ def plot_3d(list_dict):
     
     fig = go.Figure(data=data, layout=layout)
     #ply.plot(fig)#,filename='python-docs/multiple-surfaces')
-    ply.image.save_as(fig, filename='C:/Users/shringar.kashyap/Desktop/mer_ind/mervyn_index/index/img/plot420.png')
+    ply.image.save_as(fig, filename='/img/plot420.png')
     
     
     
