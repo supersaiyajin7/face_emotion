@@ -2,10 +2,10 @@
 """
 Created on Fri Jun 22 17:54:28 2018
 
-@author: shringar.kashyap
+@author: supersaiyajin7
 """
 import plotly
-plotly.tools.set_credentials_file(username='shringarkashyap', api_key='wOXcxHwQF4UtsIMPOpwq')
+plotly.tools.set_credentials_file(username='abc', api_key='xyz')
 import plotly.plotly as ply
 import plotly.graph_objs as go
 
